@@ -1,5 +1,6 @@
 import Banner from '@/components/Banner';
 import Aboutme from '@/components/Aboutme';
+import Experience from '@/components/Experience';
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <div className='max-w-screen-xl mx-auto lg:pt-10'>
         <Banner />
         <Aboutme />
+        <Experience />
       </div>
     </main>
   )
